@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from './components/ui/tabs';
-import Button from './components/ui/button';
-import Input from './components/ui/input';
-import Card from './components/ui/card';
-import CardContent from './components/ui/card'; // si CardContent también es default export en card.jsx
-import Textarea from './components/ui/textarea';
+import { Button } from './components/ui/button';
+import { Input } from './components/ui/input';
+import { Card, CardContent } from './components/ui/card';
+import { Textarea } from './components/ui/textarea';
 import { Plus, Edit, Trash } from 'lucide-react';
 
 const teams = ['Groc', 'Verd', 'Roig'];
